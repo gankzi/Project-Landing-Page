@@ -38,13 +38,13 @@ nav {
 .header-main {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header-content {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -72,4 +72,36 @@ nav {
     border: none;
     padding: 5px 15px;
     max-width: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    text-align: center;
+}
+
+.infoimg {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.infos p {
+    width: 200px;
 }
